@@ -714,9 +714,9 @@ button {
 }
 
 .brand_logo {
-  max-width: 260px;
+  max-width: 500px;
   width: 100%;
-  opacity: 0.28;              /* watermark */
+  opacity: 0.40;              /* watermark */
   filter: grayscale(100%);
   transition: opacity 0.35s ease, filter 0.35s ease;
   will-change: opacity, filter;
