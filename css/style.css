@@ -256,21 +256,6 @@ button {
 
 /* === Sección principal del banner === */
 /* ===== BANNER VIDEO ===== */
-.banner_section {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
 
 /* ===== ONDA INFERIOR ===== */
 /*.banner_wave {
@@ -291,19 +276,19 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #fff;
 }
 
 /* === Video de fondo === */
 .banner_section .bg-video {
-  position: absolute;
+    position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top; 
+  object-position: center top; /* 🔥 prioriza rostros */
 }
-
 
 /* === Oscurecimiento para mejorar contraste del texto === */
 .banner_section::after {
