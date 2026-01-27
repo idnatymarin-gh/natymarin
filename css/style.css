@@ -965,6 +965,33 @@ button {
 }
 
 
+/* =========================
+   COMING SOON / EXPANSIÓN
+========================= */
+
+.coming_soon_editorial {
+  max-width: 720px;
+  margin: 80px auto 40px;
+  text-align: center;
+}
+
+.coming_label {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #8fa3a0;
+  margin-bottom: 14px;
+}
+
+.coming_soon_editorial p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #5f6f6c;
+}
+
+
+
 /* === CONTACTO === */
 .contact_section {
   padding: 100px 0;
