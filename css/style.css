@@ -407,353 +407,249 @@ button {
 
 
 /* =========================
-   SECCIÓN NATY MARIN
+   WELLBEING CONCEPT SECTION
 ========================= */
 
-.naty_magazine {
-  padding: 8rem 4rem;
-  background: #fff;
-}
-
-/* INTRO */
-.naty_intro {
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 6rem;
-  max-width: 1400px;
-  margin: 0 auto 8rem;
-  align-items: center;
-}
-
-.naty_eyebrow {
-  font-size: 0.8rem;
-  letter-spacing: 3px;
-  opacity: 0.6;
-  display: block;
-  margin-bottom: 1.5rem;
-}
-
-.naty_headline {
-  font-size: clamp(2.6rem, 4vw, 3.4rem);
-  line-height: 1.15;
-  margin-bottom: 2rem;
-}
-
-.naty_lead {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  max-width: 520px;
-}
-
-.naty_intro_image img {
+.wc_concept {
   width: 100%;
-  border-radius: 28px;
+  padding: 80px 6%;
+  background: #f7f9f8;
+  font-family: 'Arial', sans-serif;
+  color: #1f2a2a;
 }
 
-/* CONTENIDO */
-.naty_content {
-  max-width: 900px;
-  margin: 0 auto;
-}
+/* INTRO SUPERIOR */
 
-.naty_content details {
-  border-top: 1px solid rgba(0,0,0,0.15);
-  padding: 2.2rem 0;
-}
-
-.naty_content summary {
-  font-size: 1.1rem;
-  font-weight: 600;
-  cursor: pointer;
-  list-style: none;
-}
-
-.naty_content summary::-webkit-details-marker {
-  display: none;
-}
-
-.naty_content p {
-  margin-top: 1.4rem;
-  line-height: 1.7;
-}
-
-.naty_content blockquote {
-  margin-top: 1.5rem;
-  padding-left: 1.5rem;
-  border-left: 3px solid #000;
-  font-style: italic;
-  opacity: 0.85;
-}
-
-/* CTA */
-.naty_cta_block {
-  text-align: center;
-  margin-top: 7rem;
-}
-
-.naty_cta_block p {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
-}
-
-.naty_cta_block a {
-  padding: 1.1rem 3rem;
-  border-radius: 40px;
-  background: #000;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-/* RESPONSIVE */
-@media (max-width: 900px) {
-  .naty_intro {
-    grid-template-columns: 1fr;
-  }
-
-  .naty_magazine {
-    padding: 6rem 2rem;
-  }
-}
-
-
-.about_section {
-  background: #faf8f6;
-  padding: 120px 0;
-}
-
-/* CONTENEDOR CENTRAL */
-.about_container {
+.wc_intro {
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
-
-/* LOGO */
-.fitroom_logo {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 80px;
-}
-
-.fitroom_logo img {
-  max-width: 180px;
-}
-
-/* GRID */
-.about_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
-  align-items: center;
-}
-
-/* VIDEO */
-.about_right video {
-  width: 100%;
-  border-radius: 24px;
-  object-fit: cover;
-}
-
-/* TEXTO */
-.about_text {
-  max-width: 520px;
-  margin-bottom: 40px;
-}
-
-/* RESPONSIVE */
-@media (max-width: 900px) {
-  .about_grid {
-    grid-template-columns: 1fr;
-    gap: 48px;
-  }
-
-  .about_right {
-    order: -1;
-  }
-}
-
-
-/* Imagen título Naty Marin */
-.naty_title_img {
-  max-width: 260px;
-  width: 100%;
-  margin-bottom: 28px;
-}
-
-/* Imagen derecha (foto) */
-.naty_logo img {
-  width: 100%;
-  max-width: 360px;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 24px;
-}
-
-
-/* --- FITROOM INTRO --- */
-.fitroom_intro {
+  margin: 0 auto 70px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-/* Logo FitRoom */
-.fitroom_logo {
-  margin-bottom: 40px;
+.wc_logo img {
+  width: 160px;
+  margin-bottom: 30px;
+  opacity: 0.95;
 }
 
-.fitroom_logo img {
-  max-width: 320px;
-  width: 100%;
-  height: auto;
+.wc_eyebrow {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #7a8a88;
+  font-weight: 600;
+  margin-bottom: 14px;
+  display: block;
 }
 
-/* Ajuste del texto introductorio */
-.fitroom_intro .about_text {
-  max-width: 900px;
-  font-size: 20px;
-  line-height: 1.75;
-  color: #333;
-  text-align: justify;
-}
-
-/* --- SECCIÓN EL MÉTODO --- */
-.about_section {
-  width: 100%;
-  background: #faf8f6;
-  padding: 100px 0 0 0;
-  font-family: 'Roboto', sans-serif;
-}
-
-.about_taital_main {
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 0 20px;
-}
-
-.about_taital {
-  font-size: 60px;
-  color: #1A1A1A;
+.wc_headline {
+  font-size: 42px;
+  line-height: 1.2;
   font-weight: 500;
   margin-bottom: 25px;
-  letter-spacing: 0.5px;
+  color: #162020;
+}
+
+.wc_lead {
+  max-width: 760px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #324545;
+  margin-bottom: 20px;
+}
+
+.wc_paragraph {
+  max-width: 760px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #3f5555;
+  margin-bottom: 16px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .wc_concept {
+    padding: 60px 6%;
+  }
+
+  .wc_headline {
+    font-size: 32px;
+  }
+
+  .wc_lead {
+    font-size: 17px;
+  }
+
+  .wc_section_title {
+    font-size: 24px;
+  }
+
+}
+
+/* =========================
+   ABOUT / THE METHOD SECTION
+========================= */
+
+.about_section {
+  width: 100%;
+  padding: 90px 6%;
+  background: #ffffff;
+  font-family: 'Arial', sans-serif;
+  color: #1f2a2a;
+}
+
+.about_container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* GRID PRINCIPAL */
+
+.about_grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+/* COLUMNA IZQUIERDA */
+
+.about_eyebrow {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #7a8a88;
+  font-weight: 600;
+  margin-bottom: 14px;
+  display: block;
+}
+
+.about_headline {
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 28px;
+  color: #162020;
 }
 
 .about_text {
-  font-size: 20px;
-  color: #333;
-  line-height: 1.75;
-  margin-bottom: 60px;
-  text-align: justify;
+  max-width: 640px;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #3f5555;
+  margin-bottom: 40px;
 }
 
-/* --- ACORDEÓN --- */
+/* PILARES */
+
 .ig-method-accordion {
-  max-width: 900px;
-  margin: 0 auto 80px auto;
+  max-width: 640px;
 }
+
+/* BLOQUES */
 
 .ig-detail {
-  margin-bottom: 15px;
+  background: #f7f9f8;
   border-radius: 14px;
-  background: #fff;
-  border: 1px solid rgba(190, 150, 120, 0.15);
-  box-shadow: 0 3px 10px rgba(0,0,0,0.03);
-  transition: all 0.25s ease;
+  padding: 22px 26px;
+  margin-bottom: 18px;
+  border: 1px solid #e2e8e6;
+  transition: all 0.3s ease;
 }
 
-.ig-detail:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+.ig-detail[open] {
+  background: #ffffff;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.06);
+  border-color: #c9d6d3;
 }
+
+/* TITULO DEL PILAR */
 
 .ig-summary {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  font-size: 18px;
   font-weight: 600;
-  font-size: 1.05rem;
-  color: #2a2a2a;
-  padding: 1.2rem 1.5rem;
+  color: #1f3333;
   cursor: pointer;
-  border-radius: 14px;
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(250,248,246,1) 100%);
+  list-style: none;
   position: relative;
+  padding-right: 40px;
+}
+
+.ig-summary::-webkit-details-marker {
+  display: none;
 }
 
 .ig-sub {
+  display: block;
+  font-size: 13px;
   font-weight: 400;
-  font-size: 0.95rem;
-  color: #8a6b57;
-  margin-left: 10px;
+  color: #6a8a85;
+  margin-top: 4px;
 }
 
+/* ICONO */
+
 .ig-summary::after {
-  content: "▾";
-  font-size: 1rem;
-  color: #a7825a;
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 22px;
+  color: #6a8a85;
   transition: transform 0.3s ease;
 }
 
 .ig-detail[open] .ig-summary::after {
-  transform: rotate(-180deg);
+  content: "–";
 }
 
-.ig-detail[open] .ig-summary {
-  background: rgba(248,244,240,0.6);
-}
+/* CONTENIDO */
 
-.ig-content {
-  padding: 1.2rem 1.6rem 1.4rem 1.6rem;
-  font-size: 1rem;
+.ig-content p {
+  margin-top: 18px;
+  font-size: 15px;
   line-height: 1.7;
-  color: #444;
-  border-top: 1px solid rgba(190,150,120,0.1);
+  color: #445f5c;
 }
 
-/* --- IMAGEN FULL WIDTH --- */
-.container-fluid {
+/* COLUMNA DERECHA : VIDEO */
+
+.about_right {
   width: 100%;
-  padding: 0;
-  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.container-fluid img {
+.about_right video {
   width: 100%;
-  height: auto;
-  display: block;
-  margin: 0;
-  padding: 0;
+  max-width: 420px;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.12);
 }
 
-/* --- RESPONSIVE --- */
-@media (max-width: 768px) {
-  .about_taital {
-    font-size: 42px;
-  }
-  .about_text {
-    font-size: 18px;
-  }
-  .ig-summary {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .ig-sub {
-    margin-left: 0;
-    margin-top: 6px;
-  }
-}
+/* RESPONSIVE */
 
-.choose_subtitle {
-  text-align: center;
-  max-width: 700px;
-  margin: 0 auto 50px;
-  font-size: 1.1rem;
-  color: #666;
+@media (max-width: 900px) {
+
+  .about_grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .about_right {
+    order: -1;
+  }
+
+  .about_headline {
+    font-size: 30px;
+  }
+
 }
 
 
