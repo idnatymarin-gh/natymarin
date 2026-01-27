@@ -1,1139 +1,502 @@
-/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
-
-/*@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');*/
-/*@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@font-face {
-    font-family: "Roboto";
-    src: url("../fonts/BalooChettan-Regular.ttf");
-    src: url("../fonts/BalooChettan-Regular.ttf");
-}
-
-
-/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
- 2) font-family: 'Poppins', sans-serif;
- ----------------------------------------*****/
-
-
-/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
-
-@import url(animate.min.css);
-@import url(normalize.css);
-@import url(icomoon.css);
-@import url(css/font-awesome.min.css);
-@import url(meanmenu.css);
-@import url(owl.carousel.min.css);
-@import url(swiper.min.css);
-@import url(slick.css);
-@import url(jquery.fancybox.min.css);
-@import url(jquery-ui.css);
-@import url(nice-select.css);
-
-/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
-
-/* Separación entre secciones principales */
-section,
-.about_section,
-.choose_section,
-.brands_section,
-.exclusive_section,
-.footer_section {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-* {
-    box-sizing: border-box !important;
-    transition: ease all 0.5s;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    color: #666666;
-    font-size: 14px;
-    line-height: 1.80857;
-    font-weight: normal;
-    overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
-    text-align: justify;
-    /*font-family: 'Righteous', Regular;*/
-
-}
-
-/*body {
-    color: #666666;
-    font-size: 14px;
-    line-height: 1.80857;
-    font-weight: normal;
-    overflow-x: hidden;
-    font-family: 'Source Code Pro', monospace;
-}*/
-
-a {
-    color: #1A1A1A;
-    text-decoration: none !important;
-    outline: none !important;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    letter-spacing: 0;
-    font-weight: normal;
-    position: relative;
-    padding: 0 0 10px 0;
-    font-weight: normal;
-    line-height: normal;
-    color: #111111;
-    margin: 0
-}
-
-h1 {
-    font-size: 24px;
-    /*font-family: 'Righteous', Regular;*/
-    /*font-family: 'Francois One', sans-serif;*/
-}
-
-h2 {
-    font-size: 22px
-}
-
-h3 {
-    font-size: 18px
-}
-
-h4 {
-    font-size: 16px
-}
-
-h5 {
-    font-size: 14px
-}
-
-h6 {
-    font-size: 13px
-}
-
-*,
-*::after,
-*::before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-    color: #212121;
-    text-decoration: none!important;
-    opacity: 1
-}
-
-button:focus {
-    outline: none;
-}
-
-ul,
-li,
-ol {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-p {
-    margin: 20px;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 24px;
-}
-
-a {
-    color: #222222;
-    text-decoration: none;
-    outline: none !important;
-}
-
-a,
-.btn {
-    text-decoration: none !important;
-    outline: none !important;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
- :focus {
-    outline: 0;
-}
-
-.whatsapp-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 14px 26px;
-  border-radius: 40px;
-  background: #25d366;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  text-decoration: none;
-  transition: all 0.35s ease;
-}
-
-.whatsapp-btn i {
-  font-size: 20px;
-}
-
-.whatsapp-btn:hover {
-  background: #1ebe5d;
-  transform: scale(1.08);
-  box-shadow: 0 0 22px rgba(37, 211, 102, 0.65);
-}
-
-
-.paddind_bottom_0 {
-    padding-bottom: 0 !important;
-}
-
-.btn-custom {
-    margin-top: 20px;
-    background-color: transparent !important;
-    border: 2px solid #ddd;
-    padding: 12px 40px;
-    font-size: 16px;
-}
-
-.lead {
-    font-size: 18px;
-    line-height: 30px;
-    color: #767676;
-    margin: 0;
-    padding: 0;
-}
-
-.form-control:focus {
-    border-color: #F5F4ED  !important;
-    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
-}
-
-.navbar-form input {
-    border: none !important;
-}
-
-.badge {
-    font-weight: 500;
-}
-
-blockquote {
-    margin: 20px 0 20px;
-    padding: 30px;
-}
-
-button {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-}
-
-.full {
-    float: left;
-    width: 100%;
-}
-
-.layout_padding {
-    padding-top: 90px;
-    padding-bottom: 0px;
-}
-
-.padding_0 {
-    padding: 0px;
-}
-
-/* === Sección principal del banner === */
-/* ===== BANNER VIDEO ===== */
-
-/* ===== ONDA INFERIOR ===== */
-/*.banner_wave {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 140px;
-  z-index: 2;
-}*/
-
-
-.banner_section {
-  position: relative;
-  width: 100%;
-  min-height: 100vh; /* NO height fija */
-  overflow: hidden;
-  display: flex;
-  /*align-items: center;*/
-  justify-content: center;
-  background: #000; /* evita flashes blancos */
-}
-
-/* === Video de fondo === */
-.banner_section .bg-video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-height: 100%;
-  height: auto;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  min-height: 100%;
-  object-fit: contain; /* 🔥 CLAVE */
-}
-
-/* === Oscurecimiento para mejorar contraste del texto === */
-.banner_section::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.15);
-  z-index: 1;
-}
-
-/* === Contenido centrado === */
-.banner_content {
-  position: relative;
-  z-index: 2;
-  padding-top: 8vh; /* aire visual */
-}
-
-.banner_logo {
-  width: 500px;
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.banner_title {
-  font-size: 60px;
-  font-weight: 400;
-  margin-bottom: 15px;
-  color: #fff;
-}
-
-.banner_slogan {
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 1.6;
-}
-
-@media (max-width: 1024px) {
-  .banner_section .bg-video {
-    object-position: center top;
-  }
-}
-
-@media (max-height: 700px) {
-  .banner_section .bg-video {
-    object-fit: contain;
-    background: #000;
-  }
-}
-
-
-/* === Menú superior centrado === */
-.top_nav {
-  position: absolute;
-  top: 25px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 3;
-}
-
-.top_nav ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  gap: 40px;
-}
-
-.top_nav li {
-  display: inline-block;
-}
-
-.top_nav li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 17px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  transition: color 0.3s ease;
-}
-
-.top_nav li a:hover {
-  color: #d3b29d;
-}
-
-
-/* =========================
-   WELLBEING CONCEPT SECTION
-========================= */
-
-.wc_concept {
-  width: 100%;
-  padding: 80px 6%;
-  background: #f7f9f8;
-  font-family: 'Arial', sans-serif;
-  color: #1f2a2a;
-}
-
-/* INTRO SUPERIOR */
-
-.wc_intro {
-  max-width: 1200px;
-  margin: 0 auto 70px auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.wc_logo img {
-  width: 160px;
-  margin-bottom: 30px;
-  opacity: 0.95;
-}
-
-.wc_eyebrow {
-  font-size: 12px;
-  letter-spacing: 2px;
-  color: #7a8a88;
-  font-weight: 600;
-  margin-bottom: 14px;
-  display: block;
-}
-
-.wc_headline {
-  font-size: 42px;
-  line-height: 1.2;
-  font-weight: 500;
-  margin-bottom: 25px;
-  color: #162020;
-}
-
-.wc_lead {
-  max-width: 760px;
-  font-size: 18px;
-  line-height: 1.7;
-  color: #324545;
-  margin-bottom: 20px;
-}
-
-.wc_paragraph {
-  max-width: 760px;
-  font-size: 16px;
-  line-height: 1.8;
-  color: #3f5555;
-  margin-bottom: 16px;
-}
-
-
-/* RESPONSIVE */
-
-@media (max-width: 768px) {
-
-  .wc_concept {
-    padding: 60px 6%;
-  }
-
-  .wc_headline {
-    font-size: 32px;
-  }
-
-  .wc_lead {
-    font-size: 17px;
-  }
-
-  .wc_section_title {
-    font-size: 24px;
-  }
-
-}
-
-/* =========================
-   ABOUT / THE METHOD SECTION
-========================= */
-
-.about_section {
-  width: 100%;
-  padding: 90px 6%;
-  background: #ffffff;
-  font-family: 'Arial', sans-serif;
-  color: #1f2a2a;
-}
-
-.about_container {
-  max-width: 1300px;
-  margin: 0 auto;
-}
-
-/* GRID PRINCIPAL */
-
-.about_grid {
-  display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 80px;
-  align-items: center;
-}
-
-/* COLUMNA IZQUIERDA */
-
-.about_eyebrow {
-  font-size: 12px;
-  letter-spacing: 2px;
-  color: #7a8a88;
-  font-weight: 600;
-  margin-bottom: 14px;
-  display: block;
-}
-
-.about_headline {
-  font-size: 38px;
-  line-height: 1.2;
-  font-weight: 500;
-  margin-bottom: 28px;
-  color: #162020;
-}
-
-.about_text {
-  max-width: 640px;
-  font-size: 17px;
-  line-height: 1.8;
-  color: #3f5555;
-  margin-bottom: 40px;
-}
-
-/* PILARES */
-
-.ig-method-accordion {
-  max-width: 640px;
-}
-
-/* BLOQUES */
-
-.ig-detail {
-  background: #f7f9f8;
-  border-radius: 14px;
-  padding: 22px 26px;
-  margin-bottom: 18px;
-  border: 1px solid #e2e8e6;
-  transition: all 0.3s ease;
-}
-
-.ig-detail[open] {
-  background: #ffffff;
-  box-shadow: 0 10px 28px rgba(0,0,0,0.06);
-  border-color: #c9d6d3;
-}
-
-/* TITULO DEL PILAR */
-
-.ig-summary {
-  font-size: 18px;
-  font-weight: 600;
-  color: #1f3333;
-  cursor: pointer;
-  list-style: none;
-  position: relative;
-  padding-right: 40px;
-}
-
-.ig-summary::-webkit-details-marker {
-  display: none;
-}
-
-.ig-sub {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: #6a8a85;
-  margin-top: 4px;
-}
-
-/* ICONO */
-
-.ig-summary::after {
-  content: "+";
-  position: absolute;
-  right: 0;
-  top: 0;
-  font-size: 22px;
-  color: #6a8a85;
-  transition: transform 0.3s ease;
-}
-
-.ig-detail[open] .ig-summary::after {
-  content: "–";
-}
-
-/* CONTENIDO */
-
-.ig-content p {
-  margin-top: 18px;
-  font-size: 15px;
-  line-height: 1.7;
-  color: #445f5c;
-}
-
-/* COLUMNA DERECHA : VIDEO */
-
-.about_right {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.about_right video {
-  width: 100%;
-  max-width: 420px;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 20px;
-  box-shadow: 0 12px 40px rgba(0,0,0,0.12);
-}
-
-/* RESPONSIVE */
-
-@media (max-width: 900px) {
-
-  .about_grid {
-    grid-template-columns: 1fr;
-    gap: 60px;
-  }
-
-  .about_right {
-    order: -1;
-  }
-
-  .about_headline {
-    font-size: 30px;
-  }
-
-}
-
-/* =========================
-   FUNDADORA SECTION
-========================= */
-
-.founder_section {
-  width: 100%;
-  padding: 100px 6%;
-  background: #f8faf9;
-  font-family: 'Arial', sans-serif;
-  color: #1f2a2a;
-}
-
-.founder_container {
-  max-width: 1300px;
-  margin: 0 auto;
-}
-
-/* GRID */
-
-.founder_grid {
-  display: grid;
-  grid-template-columns: 1fr 1.1fr;
-  gap: 90px;
-  align-items: center;
-}
-
-/* IMAGEN */
-
-.founder_image {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.founder_image img {
-  width: 100%;
-  max-width: 420px;
-  object-fit: cover;
-  border-radius: 22px;
-  box-shadow: 0 14px 50px rgba(0,0,0,0.18);
-}
-
-/* TEXTO */
-
-.founder_eyebrow {
-  font-size: 12px;
-  letter-spacing: 2px;
-  color: #7a8a88;
-  font-weight: 600;
-  margin-bottom: 14px;
-  display: block;
-}
-
-.founder_headline {
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-bottom: 28px;
-  color: #162020;
-}
-
-.founder_text {
-  font-size: 17px;
-  line-height: 1.8;
-  color: #3f5555;
-  max-width: 620px;
-  margin-bottom: 22px;
-}
-
-.founder_text.emphasis {
-  font-weight: 600;
-  color: #1f3333;
-}
-
-/* CTA */
-
-.founder_cta {
-  margin-top: 36px;
-  display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
-}
-
-.cta_button {
-  padding: 16px 34px;
-  background: #1f3333;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 600;
-  border-radius: 40px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 8px 22px rgba(0,0,0,0.18);
-}
-
-.cta_button:hover {
-  background: #2a4745;
-  transform: translateY(-2px);
-}
-
-/* CTA SECUNDARIO */
-
-.cta_secondary {
-  padding: 16px 34px;
-  border: 1.8px solid #1f3333;
-  color: #1f3333;
-  font-size: 15px;
-  font-weight: 600;
-  border-radius: 40px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.cta_secondary:hover {
-  background: #1f3333;
-  color: #ffffff;
-}
-
-/* RESPONSIVE */
-
-@media (max-width: 900px) {
-
-  .founder_grid {
-    grid-template-columns: 1fr;
-    gap: 60px;
-  }
-
-  .founder_headline {
-    font-size: 32px;
-  }
-
-  .founder_cta {
-    justify-content: center;
-  }
-
-}
-
-
-/* =========================
-   SERVICIOS / EXPERIENCIA
-========================= */
-
-.experiencia {
-  padding: 100px 6%;
-  background: #ffffff;
-  font-family: 'Arial', sans-serif;
-}
-
-.exp_titulo {
-  text-align: center;
-  font-size: 42px;
-  font-weight: 500;
-  margin-bottom: 28px;
-  color: #162020;
-}
-
-.exp_texto {
-  max-width: 820px;
-  margin: 0 auto 70px auto;
-  text-align: center;
-  font-size: 17px;
-  line-height: 1.8;
-  color: #4a5f5f;
-}
-
-/* GRID */
-
-.exp_grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 50px 70px;
-}
-
-/* CARD */
-
-.exp_card {
-  background: #f8faf9;
-  padding: 40px 38px;
-  border-radius: 22px;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.06);
-  transition: all 0.3s ease;
-}
-
-.exp_card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 16px 50px rgba(0,0,0,0.12);
-}
-
-/* TITULOS */
-
-.exp_card_title {
-  font-size: 22px;
-  font-weight: 600;
-  color: #1f3333;
-  margin-bottom: 6px;
-}
-
-.exp_card_sub {
-  font-size: 13px;
-  letter-spacing: 1.5px;
-  color: #7a8a88;
-  text-transform: uppercase;
-  display: block;
-  margin-bottom: 20px;
-}
-
-/* TEXTO */
-
-.exp_card_text {
-  font-size: 16px;
-  line-height: 1.8;
-  color: #425a5a;
-}
-
-/* CTA */
-
-.read_bt_1 {
-  margin-top: 80px;
-  text-align: center;
-}
-
-/* RESPONSIVE */
-
-@media (max-width: 900px) {
-
-  .exp_grid {
-    grid-template-columns: 1fr;
-  }
-
-  .exp_titulo {
-    font-size: 34px;
-  }
-
-}
-
-
-
-/* =========================
-   NATY MARIN PRESENTS
-========================= */
-
-.quantum-launch {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  padding: 120px 40px 140px;
-  background: radial-gradient(
-    ellipse at center,
-    #2f5f4c 0%,
-    #163a2d 70%,
-    #0f2a20 100%
-  );
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  overflow: hidden;
-}
-
-/* Logo Naty Marin */
-.nm-logo {
-  position: absolute;
-  top: 40px;
-}
-
-.nm-logo img {
-  height: 42px;
-  opacity: 0.9;
-}
-
-/* Título principal */
-.launch-title {
-  color: #ffffff;
-  font-size: clamp(48px, 7vw, 96px);
-  font-weight: 500;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  margin-bottom: 32px;
-}
-
-/* Subtítulo */
-.launch-subtitle {
-  color: rgba(255, 255, 255, 0.85);
-  font-size: clamp(16px, 2vw, 20px);
-  max-width: 780px;
-  margin-bottom: 60px;
-  line-height: 1.6;
-}
-
-/* CTA */
-.launch-cta {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 14px;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  margin-bottom: 80px;
-}
-
-/* Logo Quantum */
-.quantum-logo img {
-  width: clamp(280px, 40vw, 520px);
-  transition: transform 0.6s ease, filter 0.6s ease;
-  filter: drop-shadow(0 0 0 rgba(212, 175, 55, 0));
-}
-
-/* Hover poderoso */
-.quantum-logo:hover img {
-  transform: scale(1.18);
-  filter: drop-shadow(0 0 40px rgba(212, 175, 55, 0.75));
-}
-
-
-/* =========================
-   COMING SOON / EXPANSIÓN
-========================= */
-
-.coming_soon_editorial {
-  max-width: 720px;
-  margin: 80px auto 40px;
-  text-align: center;
-}
-
-.coming_label {
-  display: block;
-  font-size: 11px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #8fa3a0;
-  margin-bottom: 14px;
-}
-
-.coming_soon_editorial p {
-  font-size: 16px;
-  line-height: 1.8;
-  color: #5f6f6c;
-}
-
-
-
-/* === CONTACTO === */
-.contact_section {
-  padding: 100px 0;
-  background: #e1e0dd;
-}
-
-.contact_grid {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr; /* mapa | contacto */
-  gap: 80px;
-  align-items: center;
-}
-
-/* MAPA */
-.contact_map iframe {
-  width: 100%;
-  height: 420px;
-  border: none;
-  border-radius: 18px;
-}
-
-/* INFO */
-.contact_info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 40px 60px;
-}
-
-
-.contact_info h2 {
-  font-size: 48px;
-  margin-bottom: 32px;
-}
-
-.contact_title {
-  font-size: 36px;
-  font-weight: 500;
-}
-
-/* WhatsApp */
-.whatsapp_btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 18px 42px;
-  border-radius: 50px;
-  background-color: #d6b28d;
-  color: #fff;
-  font-size: 17px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  border: none;
-  transition: all 0.35s ease;
-  box-shadow: 0 12px 30px rgba(214,178,141,0.35);
-}
-
-.whatsapp_btn:hover {
-  background-color: #e6c49e;
-  box-shadow: 0 18px 45px rgba(214,178,141,0.55);
-  transform: translateY(-3px);
-}
-
-
-/* Datos */
-.contact_details p {
-  font-size: 15px;
-  opacity: 0.8;
-}
-
-/* Redes */
-.contact_socials {
-  display: flex;
-  gap: 28px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-}
-
-.contact_socials a {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  border: 1.5px solid #d6b28d;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #d6b28d;
-  font-size: 28px;
-  transition: all 0.35s ease;
-}
-
-.contact_socials a:hover {
-  background-color: #d6b28d;
-  color: #fff;
-  transform: translateY(-4px);
-  box-shadow: 0 10px 25px rgba(214,178,141,0.35);
-}
-
-
-
-
-/* Responsive */
-@media (max-width: 900px) {
-  .contact_grid {
-    grid-template-columns: 1fr;
-  }
-
-  .contact_map iframe {
-    height: 300px;
-  }
-}
-
-
-
-/* footer section end */
-
-.copyright_section {
-    width: 100%;
-    float: left;
-    background-color: #214436  ;
-    height: auto;
-}
-
-.copyright_section img {
-    width: 20%;
-}
-
-.copyright_text {
-    width: 100%;
-    float: left;
-    color: #F5F4ED ;
-    text-align: center;
-    font-size: 16px;
-    margin-left: 0px;
-}
-
-.copyright_text a {
-    color: #F5F4ED ;
-}
-
-.copyright_text a:hover {
-    color: #e27141;
-}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Naty Marín</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <!-- fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Righteous&display=swap" rel="stylesheet"> -->
+ <!--   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet"> -->
+
+   <!-- owl stylesheets -->
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen">
+</head>
+
+<body>
+
+         <!-- banner section start -->
+<header class="banner_section">
+
+  <!-- Menú superior -->
+  <nav class="top_nav">
+    <ul>
+      <li><a href="#naty-marin">Naty Marín</a></li>
+      <!-- <li><a href="#la-experiencia">Servicios</a></li> -->
+      <li><a href="#marcas">Quantum 7D</a></li>
+      <li><a href="#contacto">Información</a></li>
+    </ul>
+  </nav>
+
+  <!-- Video de fondo -->
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="videos/banner-bg video.mp4" type="video/mp4">
+  </video>
+
+  <!-- Contenido centrado -->
+  <div class="banner_content">
+    <img src="images/logo1.png" alt="Naty Marin Logo" class="banner_logo">
+  </div>
+
+  <!-- ===== ONDA SVG ===== -->
+<!--   <svg class="banner_wave" viewBox="0 0 1440 120" preserveAspectRatio="none">
+    <path 
+      d="M0,60 C240,120 480,0 720,30 960,60 1200,90 1440,40 L1440,120 L0,120 Z"
+      fill="#faf8f6"
+    />
+  </svg> -->
+
+</header>
+
+<!-- banner section end -->
+
+<section class="wc_concept" id="wellbeing-concept">
+
+  <!-- BLOQUE SUPERIOR / LOGO -->
+  <div class="wc_intro">
+
+    <div class="wc_logo">
+      <img src="images/wc.png" alt="Wellbeing Concept">
+    </div>
+
+    <!-- <div class="wc_intro_text">
+      <span class="wc_eyebrow">EL CONCEPTO</span> -->
+
+      <h2 class="wc_headline">
+        Un Ecosistema de Bienestar de Nueva Generación
+      </h2>
+
+      <p class="wc_lead">
+        Somos un ecosistema de bienestar inmerso en un entorno natural, diseñado para la optimización de la salud
+        desde un enfoque profundamente humano y personalizado.
+      </p>
+
+      <p class="wc_paragraph">
+        Marcamos una diferencia clara frente a cualquier gimnasio convencional o modelo en tendencia.
+        Aquí no replicamos fórmulas: diseñamos procesos.
+        Nuestro respaldo es la ciencia, nuestra herramienta es la personalización,
+        y el centro absoluto de cada decisión eres tú.
+      </p>
+
+      <p class="wc_paragraph">
+        Wellbeing Concept nace como una plataforma integral donde convergen intervención física, neurociencia aplicada,
+        diseño de experiencia, tecnología, formación profesional y entorno terapéutico,
+        para crear realidades de salud sostenibles y profundamente conscientes.
+      </p>
+
+    </div>
+
+  </div>
+
+  <!-- PILARES DE LA FILOSOFÍA -->
+<!--   <div class="wc_pillars">
+
+    <h3 class="wc_section_title">Los Pilares de Nuestra Filosofía</h3>
+
+    <details>
+      <summary>Pilar I — En construcción</summary>
+      <p>
+        Este pilar definirá uno de los fundamentos estructurales del ecosistema Wellbeing Concept.
+        Aquí se integrarán los principios científicos, humanos y metodológicos que sostienen nuestra intervención.
+      </p>
+    </details>
+
+    <details>
+      <summary>Pilar II — En construcción</summary>
+      <p>
+        Este pilar abordará la manera en que diseñamos procesos, experiencias y acompañamientos personalizados,
+        garantizando coherencia entre evaluación, programación y resultados.
+      </p>
+    </details>
+
+    <details>
+      <summary>Pilar III — En construcción</summary>
+      <p>
+        Este pilar representará la integración entre entorno, tecnología, formación y experiencia,
+        consolidando nuestro modelo como un sistema vivo de bienestar.
+      </p>
+    </details>
+
+  </div> -->
+
+</section>
+
+   
+
+   <!-- about section start -->
+<section class="about_section" id="el-metodo">
+  <div class="about_container">
+
+    <div class="about_grid">
+
+      <!-- COLUMNA IZQUIERDA : PILARES -->
+      <div class="about_left">
+
+        <span class="about_eyebrow">THE METHOD BY NATY MARÍN</span>
+
+        <h2 class="about_headline">
+          Un sistema de bienestar diseñado desde la ciencia y ejecutado con precisión humana
+        </h2>
+
+        <!-- <p class="about_text">
+          Somos un ecosistema de bienestar inmerso en un entorno natural, diseñado para la optimización de la salud desde un enfoque profundamente humano y personalizado.  
+          Marcamos diferencias claras frente a cualquier gimnasio convencional o en tendencia: aquí, el respaldo es la ciencia y el centro eres tú.
+        </p> -->
+
+        <!-- PILARES -->
+        <section class="ig-method-accordion" aria-label="Pilares de la Filosofía">
+
+          <details class="ig-detail">
+            <summary class="ig-summary">
+              <span class="ig-icon">
+                <img src="images/plant.png" alt="Exclusividad Boutique">
+              </span>
+              <span class="ig-text">
+                Exclusividad Boutique
+                <span class="ig-sub">Privacidad y enfoque total</span>
+              </span>
+            </summary>
+
+            <div class="ig-content">
+              <p>
+                Creamos un entorno diseñado para eliminar las distracciones. Aquí, el lujo se vive a través de la privacidad, el espacio y una atención personalizada de élite que se adapta a tu ritmo, no al revés.
+              </p>
+            </div>
+          </details>
+
+          <details class="ig-detail">
+            <summary class="ig-summary">
+              <span class="ig-icon">
+                <img src="images/clock.png" alt="Programación con propósito">
+              </span>
+              <span class="ig-text">
+                Programación con Propósito (En lugar de "Ciencia y Datos")
+                <span class="ig-sub">Entrenamos con criterio, no por repetición.</span>
+              </span>
+            </summary>
+
+            <div class="ig-content">
+              <p>
+                Aunque creemos en la evolución tecnológica, nuestra base hoy es el seguimiento humano y técnico. Utilizamos parámetros claros de entrenamiento y un monitoreo diario para asegurar que cada sesión sea ajustada a tu realidad física, garantizando un proceso seguro y coherente.
+              </p>
+            </div>
+          </details>
+
+          <details class="ig-detail">
+            <summary class="ig-summary">
+              <span class="ig-icon">
+                <img src="images/love.png" alt="Ética en el bienestar">
+              </span>
+              <span class="ig-text">
+                Ética en el Bienestar (Venta Ética)
+                <span class="ig-sub">Tu salud es el centro, no el servicio.</span>
+              </span>
+            </summary>
+
+            <div class="ig-content">
+              <p>
+                Nuestra filosofía es la consciencia. No buscamos saturarte con servicios innecesarios; diseñamos un camino a tu medida. Contamos con un portafolio de soluciones avaladas por Naty Marín para que, cuando sientas la necesidad de evolucionar, encuentres en nuestro ecosistema el acompañamiento experto que ya conoces y en el que confías.
+              </p>
+            </div>
+          </details>
+
+        </section>
+
+      </div>
+
+      <!-- COLUMNA DERECHA : VIDEO -->
+      <div class="about_right">
+        <video autoplay muted loop playsinline>
+          <source src="videos/video 2.mp4" type="video/mp4">
+        </video>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="founder_section" id="la-fundadora">
+
+  <div class="founder_container">
+
+    <div class="founder_grid">
+
+      <!-- COLUMNA IZQUIERDA : IMAGEN -->
+      <div class="founder_image">
+        <img src="images/naty.png" alt="Naty Marín en dirección y consultoría">
+      </div>
+
+      <!-- COLUMNA DERECHA : TEXTO -->
+      <div class="founder_content">
+
+        <span class="founder_eyebrow">Fundadora & Directora Estratégica</span>
+
+        <h2 class="founder_headline">
+          Naty Marín
+        </h2>
+
+        <p class="founder_text">
+          Fisioterapeuta, neurocientífica y arquitecta de sistemas de bienestar,  
+          Naty Marín ha dedicado más de dos décadas a diseñar procesos de intervención  
+          donde la ciencia, la precisión y el criterio humano convergen.
+        </p>
+
+        <p class="founder_text">
+          Su visión no se basa en tendencias ni modelos replicables.  
+          Cada decisión estratégica del ecosistema nace de una comprensión profunda  
+          de la biología, la funcionalidad y el potencial real de cada persona.
+        </p>
+
+        <p class="founder_text emphasis">
+          "Mi propósito ha sido siempre el mismo: redefinir la relación entre el cuerpo y la mente a través del movimiento consciente. Tras años de experiencia liderando procesos de transformación, entendí que el verdadero bienestar no es un destino, sino un equilibrio constante entre la ciencia, la disciplina y la humanidad.
+
+          The Method nace de esa convicción. Aquí, mi equipo y yo no solo diseñamos planes de entrenamiento; construimos ecosistemas donde la salud se optimiza de forma personalizada, honesta y profunda. Bienvenidos a un espacio donde tu evolución es nuestra mayor prioridad."
+        </p>
+
+        <!-- CTA -->
+        <div class="founder_cta">
+          <!-- <a href="https://wa.me/573105265879" 
+             target="_blank" 
+             class="cta_button">
+            Solicitar Ingreso
+          </a> -->
+
+          <a href="https://wa.me/573105265879" 
+             target="_blank" 
+             class="cta_secondary">
+            Agendar Evaluación
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="experiencia" id="la-experiencia">
+  <div class="container">
+
+    <h1 class="exp_titulo">Servicios y Paquetes</h1>
+
+    <p class="exp_texto">
+      Somos un ecosistema de bienestar inmerso en un entorno natural, diseñado para la optimización de la salud desde un enfoque profundamente humano y personalizado.  
+      Marcamos diferencias claras frente a cualquier gimnasio convencional o en tendencia: aquí, el respaldo es la ciencia y el centro eres tú.
+    </p>
+
+    <div class="exp_grid">
+
+      <!-- SERVICIO 1 -->
+      <div class="exp_card">
+        <h3 class="exp_card_title">
+          Hiper-Personalización VIP (One-to-One)
+        </h3>
+        <span class="exp_card_sub">Acondicionamiento</span>
+
+        <p class="exp_card_text">
+          Este es nuestro servicio élite, reservado para quienes exigen la excelencia en su rendimiento. Tus sesiones privadas se desarrollan en un ambiente de discreción y concentración inigualable. Utilizamos data biométrica avanzada para diseñar tu código biológico individualizado, enfocándonos en la prevención activa y el bienestar, pilares clave para una longevidad funcional. Más de 20 años de experiencia avalan la precisión de la técnica Naty Marín.
+        </p>
+      </div>
+
+      <!-- SERVICIO 2 -->
+      <div class="exp_card">
+        <h3 class="exp_card_title">
+          Personal Group Select
+        </h3>
+        <span class="exp_card_sub">Acondicionamiento</span>
+
+        <p class="exp_card_text">
+          Comparte el rigor y la precisión de la Codificación Funcional en un entorno reducido y exclusivo. Aunque entrenes en comunidad, tu plan sigue siendo 100% único y exclusivo, diseñado bajo la técnica y precisión Naty Marín. Todo nuestro enfoque se centra en el cuidado, bienestar y prevención para una vida con longevidad funcional.
+        </p>
+      </div>
+
+      <!-- SERVICIO 3 -->
+      <div class="exp_card">
+        <h3 class="exp_card_title">
+          Therapeutic Hiper-Personalización VIP (One-to-One)
+        </h3>
+        <span class="exp_card_sub">Terapia</span>
+
+        <p class="exp_card_text">
+          Un servicio de potencialización corporal y terapia reservado para un número limitado de clientes. Cada sesión se imparte en un espacio de total discreción y bienestar. Nuestro proceso se basa en un rigor terapéutico excepcional, garantizando que tu enfoque es 100% funcional. Aquí, el objetivo es la reestructuración mecánica completa para salir o prevenir una lesión futura. La precisión de la técnica Naty Marín, enfocada en la Codificación Funcional, asegura resultados permanentes y el retorno al movimiento sin dolor.
+        </p>
+      </div>
+
+      <!-- SERVICIO 4 -->
+      <div class="exp_card">
+        <h3 class="exp_card_title">
+          RH Terapéutico Group
+        </h3>
+        <span class="exp_card_sub">Terapia</span>
+
+        <p class="exp_card_text">
+          Enfócate en la rehabilitación, potencialización y Codificación Funcional del movimiento en un ambiente de serenidad. Trabajamos con el máximo cuidado y rigor experto. Priorizamos la reestructuración mecánica para superar lesiones y mejorar la funcionalidad. Nos distinguimos claramente del entrenamiento puramente fitness o estético. La visión Naty Marín te guía.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- CTA FINAL -->
+    <div class="read_bt_1">
+      <a href="https://wa.me/573105265879"
+         target="_blank"
+         class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+        Escríbenos por WhatsApp
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Quantum 7D -->
+<section class="quantum-launch" id="marcas">
+
+  <!-- Logo Naty Marin arriba, discreto -->
+  <div class="nm-logo">
+    <img src="images/logoNM.png" alt="Naty Marin">
+  </div>
+
+  <!-- Título principal -->
+  <h1 class="launch-title">
+    PRESENTS A NEW BRAND
+  </h1>
+
+  <!-- Subtítulo -->
+  <p class="launch-subtitle">
+    La evolución de la longevidad funcional, el potencial y el movimiento humano
+  </p>
+
+  <!-- CTA -->
+  <p class="launch-cta">
+    Cliquea en Quantum 7D para conocer más
+  </p>
+
+  <!-- Logo Quantum -->
+  <a href="https://idnatymarin-gh.github.io/quantum7d/" class="quantum-logo">
+    <img src="images/Quantum 7D.png" alt="Quantum 7D">
+  </a>
+
+
+</section>
+
+
+<!-- COMING SOON / EXPANSIÓN DEL ECOSISTEMA -->
+<div class="coming_soon_editorial">
+  <span class="coming_label">Próximamente</span>
+  <p>
+    Nuestra visión de bienestar sigue expandiéndose.<br>
+    Nuevas experiencias de diagnóstico, nutrición y recuperación avanzada.
+  </p>
+</div>
+
+
+
+<section class="contact_section" id="contacto">
+
+  <div class="container contact_grid">
+
+    <!-- MAPA -->
+    <div class="contact_map">
+      <iframe 
+        src="https://www.google.com/maps?q=Naty+Marin&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <!-- INFO CONTACTO -->
+    <div class="contact_info" id="contacto">
+
+      <h2 class="contact_title">Contacto</h2>
+
+      <!-- WhatsApp -->
+      <a 
+        href="https://wa.me/573105265879" 
+        class="whatsapp_btn"
+        target="_blank"
+      >
+        Escríbenos por WhatsApp
+      </a>
+
+      <!-- Datos -->
+      <div class="contact_details">
+        <p>📞 +57 310 526 5879</p>
+        <p>✉️ fitroom@natymarin.com</p>
+      </div>
+
+      <!-- Redes -->
+      <div class="contact_socials">
+        <a href="https://www.instagram.com/tuperfil" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/tuperfil" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+   <!-- copyright section start -->
+   <div class="copyright_section">
+      <div class="container">
+         <p class="copyright_text">2025 All Rights Reserved. Design by <a href="wwww.natymarin.com"><img src="images/logoNM.png"></a>.</p>
+      </div>
+   </div>
+   <!-- copyright section end -->
+   <!-- Javascript files-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <script src="js/plugin.js"></script>
+   <!-- sidebar -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
+   <!-- javascript -->
+   <script src="js/owl.carousel.js"></script>
+   <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
