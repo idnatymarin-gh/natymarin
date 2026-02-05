@@ -1157,3 +1157,156 @@ button {
 .copyright_text a:hover {
     color: #e27141;
 }
+
+/* =========================
+   MOBILE FIRST OVERRIDES
+   PRIORIDAD CELULAR
+========================= */
+
+@media (max-width: 768px) {
+
+  /* ===== RESET GENERAL ===== */
+  section {
+    padding: 60px 5% !important;
+  }
+
+  body {
+    text-align: left;
+  }
+
+  p {
+    margin: 14px 0;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* ===== NAV ===== */
+  .top_nav {
+    top: 18px;
+  }
+
+  .top_nav ul {
+    gap: 18px;
+  }
+
+  .top_nav li a {
+    font-size: 14px;
+  }
+
+  /* ===== BANNER ===== */
+  .banner_logo {
+    width: 260px;
+  }
+
+  /* ===== WELLBEING CONCEPT ===== */
+  .wc_logo img {
+    width: 80%;
+  }
+
+  .wc_headline {
+    font-size: 26px;
+    text-align: left;
+  }
+
+  .wc_lead,
+  .wc_paragraph {
+    text-align: left;
+    font-size: 15px;
+  }
+
+  /* ===== ABOUT / METHOD ===== */
+  .about_grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about_right {
+    order: -1;
+  }
+
+  .about_headline {
+    font-size: 26px;
+  }
+
+  .ig-method-accordion {
+    max-width: 100%;
+  }
+
+  .ig-summary {
+    font-size: 15px;
+  }
+
+  /* ===== FUNDADORA ===== */
+  .founder_grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: left;
+  }
+
+  .founder_headline {
+    font-size: 30px;
+  }
+
+  .founder_text {
+    font-size: 15px;
+  }
+
+  .founder_cta {
+    text-align: left;
+  }
+
+  /* ===== EXPERIENCIA ===== */
+  .exp_titulo {
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .exp_texto {
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .exp_grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .exp_card {
+    padding: 28px;
+  }
+
+  /* ===== QUANTUM ===== */
+  .launch-title {
+    font-size: 42px;
+    letter-spacing: 0.08em;
+  }
+
+  .launch-subtitle {
+    font-size: 15px;
+  }
+
+  .quantum-logo img {
+    width: 260px;
+  }
+
+  /* ===== CONTACTO ===== */
+  .contact_grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .contact_info {
+    padding: 20px;
+  }
+
+  .contact_title {
+    font-size: 28px;
+  }
+
+  .contact_socials a {
+    width: 52px;
+    height: 52px;
+    font-size: 22px;
+  }
+
+}
