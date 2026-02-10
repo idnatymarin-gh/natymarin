@@ -1137,6 +1137,30 @@ button {
   color: #5f6f6c;
 }
 
+/* =========================
+   COMING SOON – MOBILE FIX
+========================= */
+
+@media (max-width: 768px) {
+
+  .coming_soon_editorial {
+    padding: 0 6%;
+    margin: 60px auto 40px;
+  }
+
+  .coming_label {
+    font-size: clamp(32px, 9vw, 48px);
+    letter-spacing: 1.5px;
+    line-height: 1.1;
+  }
+
+  .coming_soon_editorial p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+}
+
 
 
 /* === CONTACTO === */
